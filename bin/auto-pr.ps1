@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "blatsune-miku/scoopert:main"
+    [String]$upstream = "strange-effects/scoopert:main"
 )
 
 if (!$env:SCOOP_HOME) { $env:SCOOP_HOME = Convert-Path (scoop prefix scoop) }
