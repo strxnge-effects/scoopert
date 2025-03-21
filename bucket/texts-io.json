@@ -1,16 +1,16 @@
 {
-	"version": "1.5",
-	"description": "Rich Editor for Plain Text",
-	"homepage": "http://www.texts.io/",
-	"license": "Proprietary",
-	"url": "http://www.texts.io/Texts-1.5.msi",
-	"hash": "8f7a50c5b0fd9ce9af6aa696bc76ee7c9eb20f370a7b8acf6402549899036e4d",
-	"bin": "Texts.exe",
-	"shortcuts": [
-		[
-			"Texts.exe",
-			"Texts"
-		]
-	],
-	"notes": "requires pandoc 2.0.4 which is not available through scoop, dl here: https://github.com/jgm/pandoc/releases/download/2.0.4/pandoc-2.0.4-windows.msi"
+    "version": "1.5",
+    "description": "Rich Editor for Plain Text",
+    "homepage": "http://www.texts.io/",
+    "license": "Proprietary",
+    "url": "http://www.texts.io/Texts-1.5.msi",
+    "hash": "8f7a50c5b0fd9ce9af6aa696bc76ee7c9eb20f370a7b8acf6402549899036e4d",
+    "bin": "Texts.exe",
+    "shortcuts": [
+        [
+            "Texts.exe",
+            "Texts"
+        ]
+    ],
+    "notes": "requires pandoc 2.0.4 which is not available through scoop, dl here: https://github.com/jgm/pandoc/releases/download/2.0.4/pandoc-2.0.4-windows.msi"
 }
