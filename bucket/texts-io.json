@@ -4,11 +4,11 @@
     "homepage": "http://www.texts.io/",
     "license": "Proprietary",
     "url": "http://www.texts.io/Texts-1.5.msi",
-    "hash": "8f7a50c5b0fd9ce9af6aa696bc76ee7c9eb20f370a7b8acf6402549899036e4d",
-    "bin": "Texts.exe",
+    "hash": "f696fbf90d00315c179de2e070c3bc6131488de5d4e06f8de150d952ba0a1c79",
+    "bin": "Texts/Texts.exe",
     "shortcuts": [
         [
-            "Texts.exe",
+            "Texts/Texts.exe",
             "Texts"
         ]
     ],
