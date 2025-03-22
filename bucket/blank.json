@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/FPurchess/blank/releases/download/v1.2.0/blank_1.2.0_x64-setup.exe",
+            "url": "https://github.com/FPurchess/blank/releases/download/v1.2.0/blank_1.2.0_x64-setup.exe#/dl.7z",
             "hash": "9baf66c63fed906a10d982e0ca2e904f886c7acce9bb40e0964676101a4087f0"
         }
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/FPurchess/blank/releases/download/$version/blank_$version_x64-setup.exe"
+                "url": "https://github.com/FPurchess/blank/releases/download/$version/blank_$version_x64-setup.exe#/dl.7z"
             }
         }
     }
