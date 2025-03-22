@@ -18,7 +18,8 @@
     ],
     "persist": "user_settings.json",
     "checkver": {
-        "github": "https://github.com/Picorims/wav2bar"
+        "url": "https://github.com/Picorims/wav2bar/tags",
+        "regex": "v([\\w.-]+)</a></h2>"
     },
     "autoupdate": {
         "architecture": {
