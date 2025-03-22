@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Picorims/wav2bar/releases/download/v$version-beta/Wav2Bar-win32-x64-$version-beta.zip"
+                "url": "https://github.com/Picorims/wav2bar/releases/download/$version/Wav2Bar-win32-x64-$version.zip"
             }
         }
     }
