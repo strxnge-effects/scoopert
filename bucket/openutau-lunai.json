@@ -1,24 +1,23 @@
 {
-    "version": "0.1.1.11",
+    "version": "0.1.1.5",
     "description": "OpenUtau for DiffSinger modified for LUNAI singers",
     "homepage": "https://lunaiproject.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.1/ou-lunai-win-x64.zip",
-            "hash": "6121be3bd77eb68e078c75ccb276d5744c9c9d260cb89c46d90865c27bf4d3de"
+            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.5/ou-lunai-win-x64.zip",
+            "hash": "fbde16168470857665823e425fa31012229b1d751f320c6fcec346636942971f"
         },
-
         "arm64": {
-            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.1/ou-lunai-win-arm64.zip",
-            "hash": "8d1735bd9819b3147699dcf0095a9821a093e4f632fa106674d05464a615f605"
+            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.5/ou-lunai-win-arm64.zip",
+            "hash": "b1b30df50de461c1c04e398f878414360e686d5cdb51d3e3454a12611929a421"
         }
     },
     "bin": "OpenUtau.exe",
     "shortcuts": [
         [
             "OpenUtau.exe",
-            "OpenUtau (Lunai)"
+            "OpenUtau Lunai"
         ]
     ],
     "persist": [
@@ -30,5 +29,18 @@
         "Singers",
         "Templates",
         "Wavtools"
-    ]
+    ],
+    "checkver": {
+        "github": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/$version/ou-lunai-win-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/$version/ou-lunai-win-arm64.zip"
+            }
+        }
+    }
 }
