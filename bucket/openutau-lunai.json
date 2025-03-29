@@ -1,16 +1,16 @@
 {
-    "version": "0.1.1.5",
+    "version": "0.1.1.6",
     "description": "OpenUtau for DiffSinger modified for LUNAI singers",
     "homepage": "https://lunaiproject.github.io/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.5/ou-lunai-win-x64.zip",
-            "hash": "fbde16168470857665823e425fa31012229b1d751f320c6fcec346636942971f"
+            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.6/ou-lunai-win-x64.zip",
+            "hash": "cfa24f1503d61f039bebefa0e76245c65200958dafdbfeeaf22d7e5867547cac"
         },
         "arm64": {
-            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.5/ou-lunai-win-arm64.zip",
-            "hash": "b1b30df50de461c1c04e398f878414360e686d5cdb51d3e3454a12611929a421"
+            "url": "https://github.com/keirokeer/OpenUtau-DiffSinger-Lunai/releases/download/0.1.1.6/ou-lunai-win-arm64.zip",
+            "hash": "b750b6fdeb4dd4b97afc97a75101c7bfd534657a0bfd41607d74de51c14e4397"
         }
     },
     "bin": "OpenUtau.exe",
