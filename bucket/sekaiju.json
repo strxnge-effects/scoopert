@@ -10,7 +10,6 @@
         }
     },
     "pre_install": "gci $dir '*' | % { Rename-Item $_.Fullname 'Sekaiju' }",
-    "bin": "Sekaiju/Sekaiju.exe",
     "persist": "Sekaiju.ini",
     "shortcuts": [
         [
