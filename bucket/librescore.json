@@ -1,12 +1,12 @@
 {
-    "version": "6.0.17",
+    "version": "6.0.21",
     "description": "MuseScore sheet music downloader.",
     "homepage": "https://github.com/LibreScore/app-librescore",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/LibreScore/app-librescore/releases/download/v6.0.17/LibreScore.zip",
-            "hash": "35db94fde6d833265ea2cd34c998a85fa2bb897fd8aecc8b48ff9ad369a02767"
+            "url": "https://github.com/LibreScore/app-librescore/releases/download/v6.0.21/LibreScore.zip",
+            "hash": "141306622a30bffec66b9d739500d334b462560ce8ab99d3d7ee3fdac596791b"
         }
     },
     "innosetup": true,
